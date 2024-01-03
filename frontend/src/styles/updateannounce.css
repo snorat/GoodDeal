@@ -1,0 +1,42 @@
+form.announce-form {
+  padding: 30px;
+}
+.update_announce > h1 {
+  padding: 20px 0px;
+
+  text-align: center;
+}
+
+.mydescription > textarea {
+  width: 100%;
+  height: 200px;
+  margin-top: 10px;
+}
+.pictures > p {
+  margin: 15px 0px;
+}
+
+.announce-form > .pictures {
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  margin-top: 10px;
+}
+.mydescription textarea:hover {
+  border-color: #ebaf00;
+}
+
+.kilometer input:hover,
+.price input:hover {
+  border-color: #ebaf00;
+}
+.announce-form > .button > input[type="submit"] {
+  width: 180px;
+}
+@media (min-width: 700px) {
+  .update_announce > .carannounce {
+    margin-left: 10px;
+  }
+}

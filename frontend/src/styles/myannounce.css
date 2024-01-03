@@ -1,0 +1,69 @@
+.card-annonces {
+  position: relative;
+}
+
+.card-annonces > .carannounce {
+  margin-left: 20px;
+  padding-bottom: 40px;
+}
+.myannouncecard > h1 {
+  margin: 20px;
+  text-align: center;
+}
+.carcards-mes-annonce {
+  border-top: 2px solid #ccc;
+}
+
+.card-annonces > .buttons-annonce {
+  display: flex;
+  position: absolute;
+  top: 90%;
+  gap: 20px;
+  margin-left: 100px;
+}
+
+.buttons-annonce > .modifier {
+  margin: 0px 30px;
+}
+.modifier-annonce > a > button:hover {
+  cursor: pointer;
+  background-color: #cce28f;
+  color: black;
+}
+
+.supprimer-annonce > button:hover {
+  cursor: pointer;
+  background-color: #f08f94;
+  color: black;
+}
+.modifier-annonce > a > button {
+  background-color: white;
+  color: #89b803;
+  /* border: 2px solid #89b803; */
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.supprimer-annonce > button {
+  background-color: white;
+  color: #d73239;
+  /* border: 2px solid #d73239; */
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+@media (min-width: 600px) {
+  .card-annonces > .buttons-annonce {
+    display: flex;
+    position: absolute;
+    top: 85%;
+    gap: 20px;
+    margin-left: 30px;
+  }
+}

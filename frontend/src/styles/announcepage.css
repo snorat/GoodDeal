@@ -1,0 +1,123 @@
+.contentpartform {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+form {
+  width: 100%;
+}
+.annonce > h2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+  padding: 20px 0px;
+  margin: 10px 0 40px;
+}
+
+.contentpartform > .secoundpartform {
+  width: 50%;
+  padding: 0px 30px;
+}
+.contentpartform > .firstpartform {
+  width: 50%;
+  padding: 0px 30px;
+}
+.contentpartform > .part3form {
+  width: 100%;
+  padding: 0px 30px;
+}
+
+input[type="text"],
+input[type="number"] {
+  margin: 10px 0px;
+  height: 40px;
+  width: 100%;
+  border: 1px solid;
+  border-radius: 0px;
+}
+
+select {
+  margin: 10px 0px;
+  height: 40px;
+  width: 100%;
+  border: 1px solid;
+}
+.descriptions > textarea {
+  width: 100%;
+  height: 200px;
+}
+form > .button {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  transition-duration: 0.4s;
+}
+
+.button > input[type="submit"] {
+  margin-top: 30px;
+  background-color: #89b803;
+  color: white;
+  height: 30px;
+  width: 150px;
+  cursor: pointer;
+  border: none;
+  transition: 0.2s;
+  border: 3px solid #89b803;
+}
+
+.button input:hover {
+  background-color: white;
+  color: #89b803;
+}
+
+.part3form > .pictures {
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  margin-top: 10px;
+}
+
+.title input:hover,
+.price input:hover,
+.year input:hover,
+.kilometer input:hover,
+.transmission input:hover,
+.power input:hover,
+.contact input:hover,
+.city input:hover,
+.postalcode input:hover {
+  border-color: #ebaf00;
+}
+.brand select:hover,
+.model select:hover,
+.motorisations select:hover,
+.mains select:hover,
+.transmission select:hover,
+.permis select:hover,
+.type select:hover {
+  border-color: #ebaf00;
+}
+.descriptions textarea:hover {
+  border-color: #ebaf00;
+}
+
+.content > .alerte {
+  margin: 20px;
+}
+
+@media (max-width: 950px) {
+  .contentpartform > .firstpartform {
+    width: 80%;
+  }
+  .contentpartform > .secoundpartform {
+    width: 80%;
+  }
+  .contentpartform > .part3form {
+    width: 80%;
+  }
+}

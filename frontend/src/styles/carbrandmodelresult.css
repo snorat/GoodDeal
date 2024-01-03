@@ -1,0 +1,16 @@
+.model_results > h2 {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+
+.brand_results > h2 {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+.car_results > h2 {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1rem;
+}

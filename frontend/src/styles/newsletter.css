@@ -1,0 +1,56 @@
+.newsletter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  margin-left: 80px;
+  width: 45%;
+  padding: 10px 40px 10px 40px;
+  background-color: #d73239;
+  color: white;
+}
+
+.text {
+  margin: 10px 0px 10px 0px;
+}
+
+.inscription > input[type="submit"] {
+  background-color: black;
+  color: white;
+  height: 35px;
+  width: 70px;
+  cursor: pointer;
+  border: none;
+}
+
+.inscription > input[type="email"] {
+  transition: 0.4s;
+  height: 35px;
+  width: 50%;
+  border: none;
+}
+
+.inscription {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+form.subscribe {
+  margin-top: 10px;
+}
+
+@media (max-width: 780px) {
+  .propos {
+    display: none;
+  }
+  .legales {
+    display: none;
+  }
+
+  .newsletter {
+    padding: 40px;
+    margin-left: 0px;
+    width: auto;
+    margin-top: 20px;
+  }
+}

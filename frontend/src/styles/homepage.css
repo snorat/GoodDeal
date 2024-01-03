@@ -1,0 +1,48 @@
+.welcomeComponent {
+  background-image: url("/src/assets/blue-armchair-against-blue-wall-living-room-interior-elegant-interior-design-with-copy-space-ai-generative 1.png");
+  /* background-size: auto 100%; */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.contentContainer {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px 100px 30px 20px;
+}
+
+.contentContainer > h1 {
+  font-size: 40px;
+  padding: 10px 0;
+}
+
+.contentContainer > p {
+  font-size: 16px;
+}
+
+.contentContainer > a > button {
+  margin-top: 40px;
+  padding: 7px 15px;
+  border: 1px solid var(--color-yellow);
+  color: white;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+
+.contentContainer > a > button > .iconWrapper {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--color-yellow);
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 620px) {
+  .welcomeComponent {
+    display: flex;
+  }
+}

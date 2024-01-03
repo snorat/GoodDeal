@@ -1,0 +1,37 @@
+/* PARTIE 2 LE BOX GRIS */
+
+.part2 {
+  background-color: #f0f0f0;
+  padding: 60px 20px;
+}
+
+.detail-pair {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.part2 > .detail-pair > p {
+  color: #555;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.part2 > .detail-pair > h5 {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+@media (min-width: 700px) {
+  .part2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Ajustez selon vos préférences */
+  }
+
+  .detail-pair {
+    width: 19%; /* Ajustez la largeur selon vos préférences */
+    margin-bottom: 10px; /* Espace entre les lignes, ajustez selon vos préférences */
+  }
+}

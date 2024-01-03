@@ -1,0 +1,208 @@
+/* message content  */
+
+.message_content {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-right: 100px;
+  width: 35%;
+}
+
+.sent_message {
+  flex-direction: row-reverse;
+  background-color: rgb(206, 222, 251);
+  color: rgb(17, 96, 244);
+  margin-left: 200px;
+}
+
+.received_message {
+  flex-direction: row;
+  background-color: lightgray;
+  color: black;
+  margin-right: 200px;
+}
+
+#sendmessage {
+  padding: 10px;
+  font-size: 10px;
+  background-color: #3460d2;
+  color: white;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.message_text {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.message_content {
+  display: flex;
+  flex-direction: row;
+}
+
+.message_text > input[type="text"] {
+  padding: 10px;
+  border: 1px solid rgb(186, 184, 184);
+  border-radius: 10px;
+  background-color: white;
+  width: 1000%;
+  height: 50px;
+  font-size: 16px;
+  padding: 1rem;
+  margin-left: 50px;
+  /* margin-right: 100px; */
+}
+
+.message_text > input:hover {
+  background-color: whitesmoke;
+}
+
+.conversation_list > a {
+  background-color: var(--color-blue);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 300px;
+}
+
+.msg_list > h1 {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* mes messages */
+
+.conversation_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  /* width: 100%; */
+}
+
+.carimage {
+  width: 200px;
+}
+.cardetails-messages {
+  padding: 10px;
+}
+.conversation > a {
+  color: inherit;
+}
+
+.cardetails-messages > h5 {
+  padding: 2px 0;
+}
+
+.cardetails-messages > p {
+  padding: 10px 0;
+}
+
+/* conversation page */
+
+.conversation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.conversation > h1 {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.carimage > img {
+  margin-top: 30px;
+  max-width: 50%;
+  height: 50%;
+  border-radius: 5px;
+}
+
+.conversation_user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* width: 80%; */
+  width: 100%;
+  border-bottom: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.cardetails-messages > h5 {
+  margin: 10px 0;
+}
+
+@media (min-width: 800px) {
+  .conversation_list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+  }
+
+  .cardetails-messages > h6 {
+    display: inline-block;
+    margin: 5px 0 3px;
+    width: 80px;
+    text-align: center;
+  }
+
+  .cardetails-messages {
+    width: 30rem;
+  }
+
+  /* conversation page */
+
+  .conversation_user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 900px;
+  }
+
+  /*  message details */
+
+  .message_content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 35%;
+  }
+
+  .sent_message {
+    flex-direction: row-reverse;
+    background-color: rgb(206, 222, 251);
+    color: rgb(17, 96, 244);
+    margin-left: auto;
+  }
+
+  .received_message {
+    flex-direction: row;
+    background-color: lightgray;
+    color: black;
+    margin-right: auto;
+  }
+
+  .message_text > input {
+    width: 60%;
+  }
+}

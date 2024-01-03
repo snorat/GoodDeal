@@ -1,0 +1,103 @@
+.signup_background {
+  color: white;
+  padding: 10px;
+}
+.signup_title {
+  display: none;
+}
+
+.signup_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: rgba(0, 0, 0, 0.72);
+  border-radius: 16px;
+  gap: 10px;
+  padding: 10px;
+}
+
+.signup_header > .signup_header_title > h1 {
+  color: #ebaf00;
+  padding: 10px 0;
+  border-bottom: 1px solid white;
+}
+
+.signup_header > .signup_header_title > ul {
+  padding: 10px;
+  list-style: none;
+}
+
+.register_formulaire {
+  width: 100%;
+  text-align: center;
+}
+
+.my-input {
+  width: 90%;
+  padding: 12px;
+}
+.email-input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+}
+.password-input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+}
+
+.btn-create {
+  background-color: #3460d2;
+  padding: 5px;
+  width: 90%;
+  text-align: center;
+  border-radius: 66px;
+  border: none;
+  padding: 8px 0;
+}
+.btn-deja {
+  background-color: transparent;
+  color: white;
+  border: none;
+  text-decoration: underline;
+  text-align: center;
+  width: 90%;
+  padding: 8px 0;
+}
+.icon {
+  color: #ebaf00;
+  margin-right: 10px;
+}
+
+@media (min-width: 870px) {
+  .signup_background {
+    background-image: url("/src/assets/images/signup.png");
+    background-position: center;
+    margin-top: 35px;
+  }
+
+  .sign_up {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    line-height: 2 rem;
+  }
+  .signup_header {
+    color: white;
+    max-width: 500px;
+  }
+
+  .signup_title {
+    display: flex;
+    flex-direction: column;
+  }
+  .signup_title > h1 {
+    font-size: 4rem;
+    font-weight: 100;
+  }
+  .signup_title > p {
+    margin-bottom: 20px;
+  }
+}

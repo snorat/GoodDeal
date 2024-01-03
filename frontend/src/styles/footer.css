@@ -1,0 +1,54 @@
+.footer {
+  background-color: var(--color-yellow);
+  padding: 2rem 4rem;
+
+  max-width: auto;
+}
+
+.ul-list > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer > .Firstpart {
+  display: flex;
+  flex-wrap: nowrap;
+
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.Firstpart > .propos {
+  text-align: left;
+  margin-right: 30px;
+}
+
+.Firstpart > .legales {
+  text-align: left;
+  margin-right: 25px;
+}
+
+.propos > h3 {
+  padding: 10px 0;
+  border-bottom: 1px solid black;
+}
+.legales > h3 {
+  padding: 10px 0;
+  border-bottom: 1px solid black;
+}
+
+.liens {
+  line-height: 1.5rem;
+  margin-top: 1rem;
+}
+
+.ul-list {
+  display: flex;
+  flex-direction: column;
+}
+.footer > .copyright {
+  margin-top: 2rem;
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: center;
+}
